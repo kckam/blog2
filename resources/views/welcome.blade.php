@@ -9,8 +9,8 @@
         <link href="{{mix('/css/app.css')}}" rel="stylesheet" type="text/css">
     </head>
     <body>
-    <h2 style="text-align: center">Development V1</h2>
-    <h2 style="text-align: center">Development haha</h2>
+    <h2 style="text-align: center">Development V2</h2>
+    <h2 style="text-align: center">Development haha great</h2>
         <div id="root"></div>
         <script src="{{mix('/js/app.js')}}" ></script>
     </body>
