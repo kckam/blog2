@@ -6,7 +6,7 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <h3>MasterPPP</h3>
+                <h3>MasterPPPDDD</h3>
             </div>
         );
     }
