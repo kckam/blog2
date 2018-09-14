@@ -11,6 +11,6 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.react('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css')
-   .browserSync('localhost/blog/public/');
+mix.react('resources/js/app.js', 'public/js').version();
+mix.sass('resources/sass/app.scss', 'public/css').version();
+mix.browserSync('localhost/blog/public/');
