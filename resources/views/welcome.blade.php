@@ -9,7 +9,7 @@
         <link href="{{mix('/css/app.css')}}" rel="stylesheet" type="text/css">
     </head>
     <body>
-    <h2 style="text-align: center">kckam ff2fff v2222v</h2>
+    <h2 style="text-align: center">kckam ff2fff v2fff222v</h2>
         <div id="root"></div>
         <script src="{{mix('/js/app.js')}}" ></script>
     </body>
