@@ -6,7 +6,7 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <h3>KIKIKI</h3>
+                <h3>KIKIKI222</h3>
             </div>
         );
     }
