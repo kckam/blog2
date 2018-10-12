@@ -6,8 +6,10 @@ class DeployController extends Controller
 {
   public function deploy(Request $request)
   {
+      dd(123);
      $githubPayload = $request->getContent();
      $githubHash = $request->header('X-Hub-Signature');
+     dd($githubHash);
      $localToken = config('app.deploy_secret');
      $localHash = 'sha1=' . hash_hmac('sha1', $githubPayload, $localToken, false);
      if (hash_equals($githubHash, $localHash)) {
