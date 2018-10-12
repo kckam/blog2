@@ -8,11 +8,12 @@ class DeployController extends Controller
   {
      $githubPayload = $request->getContent();
      $githubHash = $request->header('X-Hub-Signature');
-     dd(base_path());
      $localToken = config('app.deploy_secret');
      $localHash = 'sha1=' . hash_hmac('sha1', $githubPayload, $localToken, false);
+     dd(base_path());
      if (hash_equals($githubHash, $localHash)) {
           $root_path = base_path();
+          echo $root_path."<<<---";
           $process = new Process('cd ' . $root_path . '; ./deploy.sh');
           $process->run(function ($type, $buffer) {
               echo $buffer;
