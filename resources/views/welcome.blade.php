@@ -10,7 +10,7 @@
     </head>
     <body>
     <h2 style="text-align: center">Finally version 2</h2>
-    <h2 style="text-align: center">Development haha greatL OOP</h2>
+    <h2 style="text-align: center">Development haha greatL OOPdd</h2>
         <div id="root"></div>
         <script src="{{mix('/js/app.js')}}" ></script>
     </body>
